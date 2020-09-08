@@ -1,4 +1,4 @@
-# SOLID-principles-kotlin
+# SOLID principles in Kotlin
 Examples of SOLID principles in Kotlin
 
 ## Single Responsibility
