@@ -11,7 +11,7 @@ interface BadShape {
 
 data class BadCircle(val diameter: Double): BadShape {
     override fun radius() = diameter / 2
-    override fun area() = 3.142 * radius().pow(2)
+    override fun area() = Math.PI * radius().pow(2)
 }
 
 data class BadSquare(val width: Int, val height: Int): BadShape {
@@ -32,7 +32,7 @@ interface CircularShape {
 
 data class Circle(val diameter: Double): Shape, CircularShape {
     override fun radius() = diameter / 2
-    override fun area() = 3.142 * radius().pow(2)
+    override fun area() = Math.PI * radius().pow(2)
 }
 
 data class Square(val width: Int, val height: Int): Shape {
