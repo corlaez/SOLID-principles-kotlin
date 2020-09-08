@@ -1,5 +1,3 @@
-import kotlin.math.pow
-
 // BAD: This class violates the Single Responsibility Principle
 // BadUser class performs storage actions as well as user related actions
 class BadUser {
