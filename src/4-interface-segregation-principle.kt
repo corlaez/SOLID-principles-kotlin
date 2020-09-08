@@ -19,7 +19,6 @@ data class BadSquare(val width: Int, val height: Int): BadShape {
     override fun area() = (width * height).toDouble()
 }
 
-
 // GOOD: by breaking BadShape up into Shape & CircularShape,
 // we no longer need to force Square to implement a radius
 interface Shape {

@@ -18,7 +18,7 @@ Examples of SOLID principles in Kotlin
 
 ## Interface Segregation Principle
 * Clients should not be forced to program against interfaces they do not use
-* 
+
 [View example](src/4-interface-segregation-principle.kt)
 
 ## Dependency Inversion Principle
