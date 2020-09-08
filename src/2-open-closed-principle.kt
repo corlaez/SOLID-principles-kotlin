@@ -7,7 +7,7 @@ fun main() {
 
 open class Animal(private val name: String) {
     fun speak() {
-        println("My name is $name");
+        println("My name is $name")
     }
 }
 

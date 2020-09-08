@@ -20,9 +20,9 @@ interface AuthTokenStorage {
 class User(private val authStorage: AuthTokenStorage) {
     fun login() {}
     fun storeAuthToken(token: String) {
-        authStorage.store(token);
+        authStorage.store(token)
     }
     fun clearAuthToken() {
-        authStorage.clear();
+        authStorage.clear()
     }
 }

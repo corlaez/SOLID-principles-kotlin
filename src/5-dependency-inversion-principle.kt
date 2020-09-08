@@ -12,7 +12,7 @@ class BookRepository(val apiKey: String) {
 }
 
 class BadLibrary {
-    fun list() = BookRepository(BOOK_API_KEY).getBooks();
+    fun list() = BookRepository(BOOK_API_KEY).getBooks()
 
     companion object {
         const val BOOK_API_KEY = "abc123"

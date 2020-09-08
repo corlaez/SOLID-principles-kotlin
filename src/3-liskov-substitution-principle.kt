@@ -21,6 +21,6 @@ class VehicleRepository {
         val vehicles: MutableList<Vehicle> = ArrayList()
         vehicles.add(Car(reg = "AB66 GHJ"))
         vehicles.add(Campervan(reg = "CA66 MPR", numberOfBeds = 2))
-        return vehicles;
+        return vehicles
     }
 }
