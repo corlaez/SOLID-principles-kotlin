@@ -37,4 +37,3 @@ data class Circle(val diameter: Double): Shape, CircularShape {
 data class Square(val width: Double, val height: Double): Shape {
     override fun area() = width * height
 }
-}
