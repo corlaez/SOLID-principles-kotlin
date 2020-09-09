@@ -7,7 +7,9 @@
 
 fun main() {
     val vehicles: List<Vehicle> = VehicleRepository().getAll()
-    print(vehicles)
+    for (vehicle in vehicles) {
+        println(vehicle.registration)
+    }
 }
 
 open class Vehicle(val registration: String)

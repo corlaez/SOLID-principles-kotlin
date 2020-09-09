@@ -14,9 +14,9 @@ data class BadCircle(val diameter: Double): BadShape {
     override fun area() = Math.PI * radius().pow(2)
 }
 
-data class BadSquare(val width: Int, val height: Int): BadShape {
+data class BadSquare(val width: Double, val height: Double): BadShape {
     override fun radius() = 0.0
-    override fun area() = (width * height).toDouble()
+    override fun area() = width * height
 }
 
 // GOOD: by breaking BadShape up into Shape & CircularShape,
@@ -34,6 +34,7 @@ data class Circle(val diameter: Double): Shape, CircularShape {
     override fun area() = Math.PI * radius().pow(2)
 }
 
-data class Square(val width: Int, val height: Int): Shape {
-    override fun area() = (width * height).toDouble()
+data class Square(val width: Double, val height: Double): Shape {
+    override fun area() = width * height
+}
 }
