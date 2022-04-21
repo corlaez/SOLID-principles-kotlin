@@ -22,6 +22,6 @@ Examples of SOLID principles in Kotlin
 [View example](src/4-interface-segregation-principle.kt)
 
 ## Dependency Inversion Principle
-* Program to an interface, not an implementation
+* Avoid instanciation of classes you depend on in the use sites. Inject dependencies instead
 
 [View example](src/5-dependency-inversion-principle.kt)
